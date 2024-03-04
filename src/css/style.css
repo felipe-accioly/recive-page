@@ -1,0 +1,136 @@
+html{
+    font-size: 62.5%;
+    font-family: "Outfit", sans-serif;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1700px;
+    background-color: var(--eggshell);
+}
+
+.content .principal-section{
+    max-width: 500px;
+    height: 1600px;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.content .principal-section .omelette-image{
+    border-radius: 20px;
+}
+
+.content .principal-section .omelette-recipe-title{
+    color: var(--dark-charcoal);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.content .principal-section .description{
+    font-size: 1.5rem;
+    color: var(--dark-charcoal);
+}
+
+.content .principal-section .time{
+    background-color: var(--rose-white);
+    height: 150px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.content .principal-section .time .time-title{
+    color: var(--dark-raspberry);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.content .principal-section .time ul li{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.content .principal-section .ingredients{
+    padding: 2.5rem;
+    height: 20rem;
+}
+
+.content .principal-section .ingredients .ingredients-title{
+    font-family: "Young Serif", serif;
+    color: var(--nutmeg);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.content .principal-section .ingredients ul li{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.content .principal-section .instructions{
+    padding: 2.5rem;
+    height: 20rem;
+}
+
+.content .principal-section .instructions .instructions-title{
+    font-family: "Young Serif", serif;
+    color: var(--nutmeg);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.content .principal-section .instructions ol li{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.content .principal-section .nutricion-table{
+    padding: 2.5rem;
+    height: 20rem;
+}
+
+.content .principal-section .nutricion-table .nutricion-title{
+    font-family: "Young Serif", serif;
+    color: var(--nutmeg);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.content .principal-section .nutricion-table .table-description{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.content .principal-section .nutricion-table .table{
+    padding: 1.2rem;
+}
+
+.content .principal-section .nutricion-table .nutricion{
+    display: flex;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    justify-content: space-between;
+    max-width: 250px;
+}
+
+.content .principal-section .nutricion-table .nutricion .value{
+    color: var(--nutmeg);
+    font-weight: 800;
+}
+
+ul li span,
+ol li span{
+    font-weight: bold;
+}

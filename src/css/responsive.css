@@ -1,0 +1,41 @@
+@media(max-width:500px){
+    .content{
+        background-color: #fff;
+        align-items: baseline;
+        display: block;
+        height: 1650px;
+    }
+
+    .content .principal-section .omelette-image{
+        border-radius: 0px;
+    }
+
+    .content .principal-section{
+       justify-content: space-between;
+       padding: 0;
+    }
+
+    .content .principal-section .omelette-recipe-title,
+    .content .principal-section .description,
+    .content .principal-section .ingredients
+
+    {
+        padding: 0 25px;
+    }
+
+    .content .principal-section .time{
+        margin: 25px;
+        max-width: 400px;
+    }
+
+    .content .principal-section .instructions{
+        height: 340px;
+        padding: 0 25px;
+    }
+
+    .content .principal-section .nutricion-table{
+        height: 200px;
+        padding: 0 25px;
+    }
+
+}
